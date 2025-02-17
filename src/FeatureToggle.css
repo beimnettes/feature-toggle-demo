@@ -1,0 +1,21 @@
+/* src/FeatureToggle.css */
+.feature-toggle {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.enabled {
+    background-color: green; /* Green */
+    color: white;
+    border: 2px solid #388e3c;
+}
+
+.disabled {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: 2px solid #d32f2f;
+}
